@@ -9,4 +9,6 @@ typedef struct {
     char token[TOKEN_LENGTH + 1];
 } User;
 
+User* create_user(const char* username);
+
 #endif
